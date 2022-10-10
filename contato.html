@@ -10,7 +10,7 @@
 	<body>
 		<header>
 			<div class="caixa">
-				<h1><img src="logo.png"></h1>
+				<h1><img src="logo.png" alt="Logo da Barbearia-Alura"></h1>
 
 				<nav>
 					<ul>
@@ -28,15 +28,15 @@
 						<input type="text" id="nomesobrenome" class="input-padrao" required>
 
 						<label for="email">Email</label>
-						<input type="text" id="email">
+						<input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
 						<label for="telefone">Telefone</label>
-						<input type="text" id="telefone">
+						<input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
-            <label for="mensagem">Mensagem</label>
+					  <label for="mensagem">Mensagem</label>
 						<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
-						<div>
+					</fieldset>
 							  <p>Como prefere o nosso contato?</p>
 								<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
 
@@ -46,26 +46,45 @@
 
 
 								<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
-						</div>
+						</fieldset>
 
-					</div>
-						    <p>Qual horário prefere ser atendido?</p>
+					</fieldset>
+						    <p>Qual horário prefere ser atendido?</legend>
 						    <select>
 							      <option>Manhã</option>
 								    <option>Tarde</option>
 							    	<option>Noite</option>
 					      </select>
-				 </div>
+				 </fieldset>
 
 						<label class="checkbox"> <input type="checkbox">Gostaria de receber nossas novidades por email?</label>
 
 
-						<input type="submit" value="Enviar formulário">
+						<input type="submit" value="Enviar formulário" class="enviar">
 			  </form>
+				<table>
+            <tr>
+							  <td>Dia</td>
+								<td>horário</td>
+						</tr>
+						<tr>
+							  <td></td>
+								<td>segunda</td>
+								<td>8h.~.20h</td>
+						</tr>
+						<tr>
+							  <td></td>
+								<td>Dia</td>
+								<td>horário</td>
+						</tr>
+						<tr>
+							  <td></td>
+
+				</table>
 	  </main>
 
 		<footer>
-			<img src="logo-branco.png">
+			<img src="logo-branco.png" alt="Logo da Barbearia Alura">
 			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
 		</footer>
 	</body>
